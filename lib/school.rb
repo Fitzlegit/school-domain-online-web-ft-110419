@@ -13,7 +13,7 @@ class School
     roster[grade] = []
     roster[grade] << name
   
-  hhhhhjhlkjhjkh
+
   end
   
   
