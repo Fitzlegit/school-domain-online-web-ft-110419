@@ -10,7 +10,9 @@ class School
   
   def add_student(name, grade)
     
-    roster[grade] = []
+    roster[grade] ||= []
+    #check to seee if there's a value here, if not make it an array. 
+    #if there is, don't do anything
     roster[grade] << name
   
 
