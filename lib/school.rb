@@ -23,11 +23,9 @@ class School
   
   def sort
     
-    names_alph_order = []
+    names_alph_order = {}
     roster.each do |grade, names|
-      
-      
-      
+      names_alph_order[grade] = names.sort
       
     end
   end
